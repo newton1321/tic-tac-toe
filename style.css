@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.button{
+    height: 110px;
+    width: 110px;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial Black";
+    font-size: 50px;
+    opacity: 0;
+    background: 0;
+    border-width: 0; 
+}
+
+#button1{
+    left: 41.3%;
+    border-right-width: 10px;
+    border-bottom-width: 12px;
+}
+#button2{
+    border-bottom-width: 12px;
+    border-right-width: 10px;
+}
+#button3{
+    right: 300px;
+    border-bottom-width: 12px;
+}
+#button4{
+    border-bottom-width: 12px;
+    border-right-width: 10px;
+    left: 300px;
+    top: 110px;
+}
+#button5{
+    border-bottom-width: 12px;
+    border-right-width: 10px;
+    top: 110px;
+}
+#button6{
+    border-bottom-width: 12px;
+    top: 110px;
+    right: 300px;
+}
+#button7{
+    border-right-width: 10px;
+    top: 215px;
+    left: 300px;
+}
+#button8{
+    top: 215px;
+    border-right-width: 10px;
+}
+#button9{
+    top: 215px;
+    right: 300px;
+}
+
+#start{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-family: "Arial Black";
+    font-size: 50px;
+    position: absolute;
+    border-radius: 40px;
+    text-align: center;
+    border-width: 10px;
+    padding: 20px 50px;
+    top: 30%;
+    border-color: white;
+    z-index: 2;
+}
+
+#text{
+    font-family: "Arial Black";
+    color: white;
+    font-size: 100px;
+    position: absolute; 
+    z-index: -1;
+}
